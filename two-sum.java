@@ -1,3 +1,9 @@
+/* 
+TC: O(n)
+SC: O(n)
+Main Concept: Hash Map
+*/
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> indexMap = new HashMap<Integer,Integer>();
